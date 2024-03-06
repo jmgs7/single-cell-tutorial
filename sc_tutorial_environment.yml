@@ -3,8 +3,8 @@ channels:
  - conda-forge
  - bioconda
 dependencies:
- - python>=3.5, <3.7
- - cmake>=3.9, <3.11
+ - python
+ - cmake>=3.9,<3.11
  - r-essentials
  - r-rgl
  - pandas
@@ -32,12 +32,12 @@ dependencies:
  - r-rngtools
  - bioconductor-rhdf5lib
  - pip
+ - anndata
+ - fa2
+ - gprofiler-official
+ - scanpy
+ - rpy2
  - pip:
    - MulticoreTSNE
-   - anndata
-   - fa2
-   - gprofiler-official
-   - scanpy
-   - rpy2
    - git+https://github.com/flying-sheep/anndata2ri
    
